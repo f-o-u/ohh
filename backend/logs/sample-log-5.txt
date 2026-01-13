@@ -1,0 +1,5 @@
+[INFO] Cron job triggered: cleanup-temp
+[DEBUG] Scanning temp folder
+[INFO] Deleted 12 temporary files
+[WARN] Some files could not be deleted: locked by another process
+[INFO] Cleanup job completed

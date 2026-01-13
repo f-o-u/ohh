@@ -1,0 +1,5 @@
+[INFO] Payment processing started
+[DEBUG] Validating credit card
+[ERROR] Payment declined: insufficient funds
+[WARN] User notified of failed payment
+[INFO] Payment retry scheduled

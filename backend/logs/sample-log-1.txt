@@ -1,0 +1,10 @@
+[INFO] Server initialized
+[DEBUG] Config loaded: default.json
+[INFO] Database connection established
+[WARN] Slow query detected
+[ERROR] Failed to send email: SMTP timeout
+[INFO] Retrying email send
+[INFO] Email sent successfully
+[DEBUG] Session token generated
+[INFO] Cleanup job started
+[INFO] Cleanup job completed

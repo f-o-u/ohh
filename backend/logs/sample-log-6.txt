@@ -1,0 +1,6 @@
+[INFO] API server starting
+[DEBUG] Middleware loaded: cors, json parser
+[INFO] Listening on port 5000
+[ERROR] Route /analyze crashed: TypeError undefined
+[DEBUG] Stack trace logged
+[INFO] Server health OK

@@ -1,0 +1,7 @@
+[INFO] User login attempt
+[DEBUG] Checking credentials
+[INFO] User authenticated: userId=204
+[WARN] Suspicious login location: IP 192.168.1.55
+[ERROR] Failed to load user dashboard
+[DEBUG] Session timeout reset
+[INFO] User redirected to login

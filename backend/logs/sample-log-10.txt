@@ -1,0 +1,7 @@
+[INFO] AI agent started
+[DEBUG] Loading models: gemini-2.5-flash
+[INFO] Analyzing logs from previous sessions
+[WARN] Partial log corruption detected
+[ERROR] Failed to process corrupted log segment
+[INFO] Analysis resumed with valid logs
+[INFO] Analysis completed

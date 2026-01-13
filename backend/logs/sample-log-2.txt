@@ -1,0 +1,9 @@
+[INFO] Build process started
+[DEBUG] Reading configuration: build.json
+[ERROR] Missing module: react-dom
+[INFO] Installing dependencies
+[INFO] Build step 1 completed
+[WARN] Deprecated API used: fs.existsSync
+[DEBUG] Checking file permissions
+[ERROR] Permission denied: /var/log/build.log
+[INFO] Build completed with warnings

@@ -1,0 +1,6 @@
+[INFO] Scheduled task: data backup
+[DEBUG] Connecting to S3 bucket
+[INFO] Backup started
+[ERROR] Network error: S3 unreachable
+[INFO] Retrying backup
+[INFO] Backup completed successfully

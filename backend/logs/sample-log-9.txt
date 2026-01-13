@@ -1,0 +1,5 @@
+[INFO] Deploy started: version 2.1.5
+[DEBUG] Pulling latest code from repo
+[INFO] Build successful
+[ERROR] Missing environment variable: DATABASE_URL
+[INFO] Deployment halted

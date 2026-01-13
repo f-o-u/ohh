@@ -1,0 +1,10 @@
+[INFO] Starting AI analysis
+[DEBUG] Model gemini-2.5-flash loaded
+[INFO] Analysis started
+[ERROR] Invalid input: empty logs provided
+[WARN] Using default logs for retry
+[INFO] Analysis completed
+[DEBUG] Output length: 1024 characters
+[INFO] Report saved to reports/output.json
+[ERROR] Directory not found, creating...
+[INFO] Report saved successfully
