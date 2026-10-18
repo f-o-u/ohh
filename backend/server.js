@@ -1,5 +1,6 @@
 require("dotenv").config();
-console.log("GEMINI_KEY:", !!process.env.GEMINI_API_KEY);
+console.log("GEMINI_KEY exists:", !!process.env.GEMINI_API_KEY);
+
 
 const express = require("express");
 const cors = require("cors");
@@ -116,10 +117,19 @@ ${combinedText}
 
     res.json({ result: aiText });
   } catch (err) {
-    console.error("AI error:", err.response?.data || err.message);
-    res.status(500).json({ result: "AI analysis failed (see backend logs for details)" });
+  const errorDetails = err.response?.data || err.message;
+
+  console.error("AI error:", JSON.stringify(errorDetails, null, 2));
+
+  res.status(500).json({
+    result:
+      err.response?.data?.error?.message ||
+      err.message ||
+      "AI analysis failed. Check Render logs."
+  });
   }
 });
+
 
 // --- Start server ---
 const PORT = process.env.PORT || 5000;
