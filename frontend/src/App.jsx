@@ -6,12 +6,14 @@ function App() {
   const [result, setResult] = useState("");
   const [files, setFiles] = useState([]);
   const [loading, setLoading] = useState(false);
+const API_BASE = "https://trea-089a.onrender.com";
+
 
   // -------- Fetch logs from backend/logs --------
   const fetchLogs = async () => {
     setLoading(true);
     try {
-      const res = await axios.get("http://localhost:5000/fetch-latest-logs");
+      const res = await axios.get(`${API_BASE}/fetch-latest-logs`);
       setLogs(res.data.logs);
       setResult("");
     } catch (err) {
@@ -43,7 +45,7 @@ function App() {
       files.forEach((file, idx) => formData.append(`files`, file));
 
       // Multi-agent analysis handled on backend
-      const res = await axios.post("http://localhost:5000/analyze", formData, {
+      const res = await axios.post(`${API_BASE}/analyze`, formData,  {
         headers: { "Content-Type": "multipart/form-data" },
       });
 
